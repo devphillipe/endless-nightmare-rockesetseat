@@ -16,14 +16,21 @@ body {
     height: 100vh;
     
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .container h3 {
     font-size: 1.6rem;
+    max-width: 37.1rem;
+    margin: 0 auto;
 }
 .container h3 span {
     color: #FFC700;
     font-size: 1.6rem;
     font-weight: 700;
+    max-width: 37.1rem; 
+
 }
 
 .container h1 {
@@ -33,12 +40,18 @@ body {
     font-family: "Emilys Candy";
     font-size: 6.4rem;
     margin: 0 auto;
+    max-width: 37.1rem;
+
 }
 
 .container p {
     color: rgba(255, 255, 255, 0.70);
     font-size: 2rem;
     margin-bottom: 7.2rem;
+    max-width: 37.1rem;
+    margin: 0 auto;
+    padding-bottom: 6.4rem;
+
 }
 
 .btn {
