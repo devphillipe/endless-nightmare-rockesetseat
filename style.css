@@ -17,16 +17,16 @@ body {
     
 }
 
-h3 {
+.container h3 {
     font-size: 1.6rem;
 }
-h3 span {
+.container h3 span {
     color: #FFC700;
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-h1 {
+.container h1 {
     width: 71.4rem;
     color: #FFC700;
     text-align: center;
@@ -35,7 +35,7 @@ h1 {
     margin: 0 auto;
 }
 
-h1 + p {
+.container p {
     color: rgba(255, 255, 255, 0.70);
     font-size: 2rem;
     margin-bottom: 7.2rem;
@@ -48,7 +48,7 @@ h1 + p {
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    transition: background-color .3 ease;
+    transition: background-color 0.3 ease;
 }
 .btn-left:hover{
     background-color: #FFC700;
