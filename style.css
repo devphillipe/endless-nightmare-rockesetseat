@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 16rem;
+    background: url(img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+h3 span {
+    color: #FFC700;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+h1 {
+    width: 71.4rem;
+    color: #FFC700;
+    text-align: center;
+    font-family: "Emilys Candy";
+    font-size: 6.4rem;
+    margin: 0 auto;
+}
+
+h1 + p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 2rem;
+    margin-bottom: 7.2rem;
+}
+
+.btn {
+    padding: 1.2rem 3.2rem;
+    gap: 1.6rem;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    transition: background-color .3 ease;
+}
+.btn-left:hover{
+    background-color: #FFC700;
+     color: #040101;
+}
+.btn-right {
+    background-color: #FFC700;
+    color: #040101;
+}
+.btn-right:hover {
+    background-color: #967602;
+    color: white;
+
+}
