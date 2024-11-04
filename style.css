@@ -66,13 +66,16 @@ body {
 .btn-left:hover{
     background-color: #FFC700;
      color: #040101;
+    border-radius: 0.4rem;
 }
 .btn-right {
     background-color: #FFC700;
     color: #040101;
+    border-radius: 0.4rem;
 }
 .btn-right:hover {
     background-color: #967602;
     color: white;
+  
 
 }
